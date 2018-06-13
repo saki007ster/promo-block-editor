@@ -359,7 +359,7 @@ main[role=main] {
 /* toolbar */
 #toolbar {
   display: flex;
-  align-items: center;
+  justify-content: center;
 }
 
 #toolbar a {
