@@ -1,0 +1,21 @@
+{
+  "name": "livetextenhancements",
+  "authors": [
+    "Saket Kumar <saki007ster@gmail.com>"
+  ],
+  "description": "a promo block editor",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "wysihtml": "^0.5.5"
+  }
+}
