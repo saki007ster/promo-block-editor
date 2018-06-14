@@ -360,6 +360,7 @@ main[role=main] {
 #toolbar {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 
 #toolbar a {
