@@ -377,3 +377,6 @@ main[role=main] {
 .wysiwyg-color-blue {
   color: blue;
 }
+.form-group {
+  position: relative;
+}
