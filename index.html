@@ -24,58 +24,16 @@
         <div class="col s12">
           <div  class="box">
             <canvas id="canvas"></canvas>
-            <!-- toolbar with suitable buttons and dialogues -->
-            <div id="toolbar">
-              <a data-wysihtml5-command="bold">B</a>
-              <a data-wysihtml5-command="italic">I</a>
-              <a data-wysihtml5-command="underline">U</a>
-              <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="h1">H1</a>
-              <a data-wysihtml5-command="formatBlock" data-wysihtml5-command-value="p">P</a>
-              <a data-wysihtml-command="foreColor" data-wysihtml-command-value="red">red</a>
-              <a data-wysihtml-command="foreColor" data-wysihtml-command-value="green">green</a>
-              <a data-wysihtml-command="foreColor" data-wysihtml-command-value="blue">blue</a>
-            </div>
+            
           </div>
         </div>
         <div class="promo-editor">
-          <div class="col s12">
-            <a id="add-text-button" class="waves-effect waves-light btn-small">Add Text</a>
-          </div>
-          <div class="text-block-editor">
-            <div class="col s6">
-              <div class="promo-block-position">
-                <h2>Text Block Position</h2>
-                <div class="form-group">
-                  <label for="top">Position From Top</label>
-                  <input type="range" value="50" min="1" max="100" step="1" id="top-position">
-                </div>
-                <div class="form-group">
-                  <label for="left">Position From Left</label>
-                  <input type="range" value="50" min="1" max="100" step="1" id="left-position">
-                </div>
-              </div>
+          <div class="row">
+            <div class="col s12">
+              <a id="add-block" class="waves-effect waves-light btn-small">Add Text Block</a>
+              <a id="remove-block" class="waves-effect waves-light btn-small">Remove Text Block</a>
             </div>
-  
-            <div class="col s6">
-              <h2>Text Block Properties</h2>
-              <div class="form-group">
-                <label for="bg-color">BG Color</label>
-                <input type="color" value="" id="bg-color" size="10">
-              </div>
-              <div class="form-group">
-                <label for="border-color">Border color</label>
-                <input type="color" value="" id="border-color">
-              </div>
-              <div class="form-group">
-                <label for="border-size">Border Size</label>
-                <input type="range" value="1" min="1" max="10" step="1" id="border-size">
-              </div>
-              <div class="form-group">
-                <label for="spacing">Spacing </label>
-                <input type="range" value="10" min="1" max="120" step="1" id="spacing">
-              </div>
-            </div>
-          </div>        
+          </div>       
         </div>
       </div>   
     </main>
@@ -86,6 +44,7 @@
 
     <!-- rules defining tags, attributes and classes that are allowed -->
     <script src="bower_components/wysihtml/parser_rules/advanced_and_extended.js"></script>
+    <script type="text/javascript" src="./js/photoeditor.js"></script>
     <script type="text/javascript" src="./js/app.js"></script>
 
   </body>
